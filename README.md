@@ -5,7 +5,7 @@
 
 ## Architecture Overview
 **Flow:**
-## GitHub Push → Jenkins Build Job → Jenkins Test Job → Jenkins Deploy Job → Live Server (Port 3000)
+### GitHub Push → Jenkins Build Job → Jenkins Test Job → Jenkins Deploy Job → Live Server (Port 3000)
 ---
 
 ## Prerequisites
