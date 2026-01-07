@@ -54,7 +54,7 @@ Open browser:
 ```
 http://<DEV-SERVER-IP>:3000
 ```
-
+<img src="developmentServer.png" width="600">
 ---
 ## Step 2: Push Node.js App to GitHub
 ```bash
@@ -111,7 +111,7 @@ git push origin master
 npm install
 ```
 * Save
-
+<img src="nodeapp-build.png" width="600">
 ---
 
 ## Step 7: Setup Testing (Mocha)
@@ -149,6 +149,8 @@ git push origin master
 ./node_modules/mocha/bin/_mocha --exit ./test/test.js
 ```
 * Save
+  
+<img src="nodeapp-test.png" width="600">
 ---
 
 ## Step 9: Prepare Live Server for Deployment
@@ -222,6 +224,8 @@ pm2 start app.js || pm2 restart app.js
 ```
 
 Save & Build
+
+<img src="nodeapp-deploy.png" width="600">
 ---
 
 ## Step 14: Verify Deployment
@@ -229,6 +233,8 @@ Open browser:
 ```
 http://<LIVE-SERVER-IP>:3000
 ```
+
+<img src="liveserverOutput.png" width="600">
 ---
 
 ## Final CI/CD Pipeline Summary
