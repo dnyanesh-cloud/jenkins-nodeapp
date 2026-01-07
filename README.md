@@ -1,11 +1,11 @@
 # Jenkins Project Node.js App Build – Test – Deploy (CI/CD)
 
-Create a complete **CI/CD pipeline for a Node.js application using Jenkins**.
+### Create a complete **CI/CD pipeline for a Node.js application using Jenkins**.
 ---
 
 ## Architecture Overview
 **Flow:**
-GitHub Push → Jenkins Build Job → Jenkins Test Job → Jenkins Deploy Job → Live Server (Port 3000)
+## GitHub Push → Jenkins Build Job → Jenkins Test Job → Jenkins Deploy Job → Live Server (Port 3000)
 ---
 
 ## Prerequisites
@@ -31,7 +31,7 @@ sudo apt install npm -y
 ### 1.2 Create Application Directory
 ```bash
 mkdir nodeapp
-cd nodeapp
+cd nodeapp/
 ```
 ### 1.3 Create Application Files
 **package.json**
